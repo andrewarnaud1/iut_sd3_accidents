@@ -13,5 +13,3 @@ victime = victime.merge(accident, on="Num_Acc")
 
 # Merger les dataframes dans un dataframe merged_data.csv
 victime.to_csv("step1/merged_data.csv", index=False)
-
-print(victime)
